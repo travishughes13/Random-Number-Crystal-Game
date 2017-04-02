@@ -34,21 +34,20 @@ var caculatedEvent;
 // This is the running total of all the clicked buttons
 var runningTotal = 0;
 
-// This shows the values in the console for debugging. Will be removed
-console.log(meteor, jP, yoshi, pokeball, hevi, runningTotal);
-
 
 // The below sections define how index.html is calculated and updated
 // This pushes the meteor value
 $('#meteor').html(meteor);
 
 // This runs the click events for the separate buttons
+// Button 1
 $('#first-button').click(function(){
 
 	caculatedEvent = jP;
 	runningTotal = runningTotal + caculatedEvent;
 	$('#running').html(runningTotal);
 
+		// Win state
 		if (runningTotal === meteor) {
 			$('#outcome').html('You Win!');
 			$('#win').html(function(){
@@ -66,6 +65,7 @@ $('#first-button').click(function(){
 			})
 	}
 
+		// Lose state
 		if (runningTotal > meteor) {
 			$('#outcome').html('You killed all the dinosaurs. Happy now?');
 			$('#loss').html(function(){
@@ -84,6 +84,7 @@ $('#first-button').click(function(){
 	}
 });
 
+// Button 2
 $('#second-button').click(function(){
 
 	caculatedEvent = yoshi;
@@ -91,6 +92,7 @@ $('#second-button').click(function(){
 	$('#running').html(runningTotal);
 	$('#outcome').html('');
 
+		// Win state
 		if (runningTotal === meteor) {
 			$('#outcome').html('You Win!');
 			$('#win').html(function(){
@@ -108,6 +110,7 @@ $('#second-button').click(function(){
 			})
 	}
 
+		// Lose state
 		if (runningTotal > meteor) {
 			$('#outcome').html('You killed all the dinosaurs. Happy now?');
 			$('#loss').html(function(){
@@ -126,6 +129,7 @@ $('#second-button').click(function(){
 	}
 });
 
+// Button 3
 $('#third-button').click(function(){
 
 	caculatedEvent = pokeball;
@@ -133,6 +137,7 @@ $('#third-button').click(function(){
 	$('#running').html(runningTotal);
 	$('#outcome').html('');
 
+		// Win state
 		if (runningTotal === meteor) {
 			$('#outcome').html('You Win!');
 			$('#win').html(function(){
@@ -150,6 +155,7 @@ $('#third-button').click(function(){
 			})
 	}
 
+		// Lose state
 		if (runningTotal > meteor) {
 			$('#outcome').html('You killed all the dinosaurs. Happy now?');
 			$('#loss').html(function(){
@@ -168,6 +174,7 @@ $('#third-button').click(function(){
 	}
 });
 
+// Button 4
 $('#fourth-button').click(function(){
 
 	caculatedEvent = hevi;
@@ -175,6 +182,7 @@ $('#fourth-button').click(function(){
 	$('#running').html(runningTotal);
 	$('#outcome').html('');
 
+		// Win state
 		if (runningTotal === meteor) {
 			$('#outcome').html('You Win!');
 			$('#win').html(function(){
@@ -192,6 +200,7 @@ $('#fourth-button').click(function(){
 			})
 	}
 
+		// Lose state
 		if (runningTotal > meteor) {
 			$('#outcome').html('You killed all the dinosaurs. Happy now?');
 			$('#loss').html(function(){
