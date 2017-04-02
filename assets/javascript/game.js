@@ -58,6 +58,7 @@ $('#first-button').click(function(){
 				$('#running').html(runningTotal);
 				caculatedEvent = 0;
 				meteor = Math.floor(19 + Math.random() * 81);
+				$('#meteor').html(meteor);
 				jP = Math.floor(1 + Math.random()*11);
 				yoshi = Math.floor(1 + Math.random()*11);
 				pokeball = Math.floor(1 + Math.random()*11);
@@ -74,6 +75,7 @@ $('#first-button').click(function(){
 				$('#running').html(runningTotal);
 				caculatedEvent = 0;
 				meteor = Math.floor(19 + Math.random() * 81);
+				$('#meteor').html(meteor);
 				jP = Math.floor(1 + Math.random()*11);
 				yoshi = Math.floor(1 + Math.random()*11);
 				pokeball = Math.floor(1 + Math.random()*11);
@@ -98,6 +100,7 @@ $('#second-button').click(function(){
 				$('#running').html(runningTotal);
 				caculatedEvent = 0;
 				meteor = Math.floor(19 + Math.random() * 81);
+				$('#meteor').html(meteor);
 				jP = Math.floor(1 + Math.random()*11);
 				yoshi = Math.floor(1 + Math.random()*11);
 				pokeball = Math.floor(1 + Math.random()*11);
@@ -114,6 +117,7 @@ $('#second-button').click(function(){
 				$('#running').html(runningTotal);
 				caculatedEvent = 0;
 				meteor = Math.floor(19 + Math.random() * 81);
+				$('#meteor').html(meteor);
 				jP = Math.floor(1 + Math.random()*11);
 				yoshi = Math.floor(1 + Math.random()*11);
 				pokeball = Math.floor(1 + Math.random()*11);
@@ -138,6 +142,7 @@ $('#third-button').click(function(){
 				$('#running').html(runningTotal);
 				caculatedEvent = 0;
 				meteor = Math.floor(19 + Math.random() * 81);
+				$('#meteor').html(meteor);
 				jP = Math.floor(1 + Math.random()*11);
 				yoshi = Math.floor(1 + Math.random()*11);
 				pokeball = Math.floor(1 + Math.random()*11);
@@ -154,6 +159,7 @@ $('#third-button').click(function(){
 				$('#running').html(runningTotal);
 				caculatedEvent = 0;
 				meteor = Math.floor(19 + Math.random() * 81);
+				$('#meteor').html(meteor);
 				jP = Math.floor(1 + Math.random()*11);
 				yoshi = Math.floor(1 + Math.random()*11);
 				pokeball = Math.floor(1 + Math.random()*11);
@@ -178,6 +184,7 @@ $('#fourth-button').click(function(){
 				$('#running').html(runningTotal);
 				caculatedEvent = 0;
 				meteor = Math.floor(19 + Math.random() * 81);
+				$('#meteor').html(meteor);
 				jP = Math.floor(1 + Math.random()*11);
 				yoshi = Math.floor(1 + Math.random()*11);
 				pokeball = Math.floor(1 + Math.random()*11);
@@ -194,6 +201,7 @@ $('#fourth-button').click(function(){
 				$('#running').html(runningTotal);
 				caculatedEvent = 0;
 				meteor = Math.floor(19 + Math.random() * 81);
+				$('#meteor').html(meteor);
 				jP = Math.floor(1 + Math.random()*11);
 				yoshi = Math.floor(1 + Math.random()*11);
 				pokeball = Math.floor(1 + Math.random()*11);
