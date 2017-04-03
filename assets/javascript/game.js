@@ -89,28 +89,24 @@ $('#meteor').html(meteor);
 // This runs the click events for the separate buttons
 // Button 1
 $('#first-button').click(function(){
-
 	caculatedEvent = jP;
 	update();
 });
 
 // Button 2
 $('#second-button').click(function(){
-
 	caculatedEvent = yoshi;
 	update();
 });
 
 // Button 3
 $('#third-button').click(function(){
-
 	caculatedEvent = pokeball;
 	update();
 });
 
 // Button 4
 $('#fourth-button').click(function(){
-
 	caculatedEvent = hevi;
 	update();
 });
