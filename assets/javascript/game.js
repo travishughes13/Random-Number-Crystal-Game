@@ -38,7 +38,7 @@ var runningTotal = 0;
 var evaluator = function() {
 			// Win state
 		if (runningTotal === meteor) {
-			$('#outcome').html('You Win!');
+			$('#outcome').html('You blew up the meteor!');
 			$('#win').html(function(){
 				win += 1;
 				runningTotal = 0;
